@@ -1,91 +1,95 @@
-# Dashboard de Vendas com Python e Streamlit
+# Sales Dashboard with Python and Streamlit
 
-Este foi um dos projetos que desenvolvi durante meus estudos de Data Science na Alura. A ideia foi colocar em prática o que estava aprendendo sobre Python, análise de dados e visualização, construindo um dashboard que pudesse ser acessado diretamente pelo navegador.
+This is one of the projects I developed during my Data Science studies at Alura. The goal was to put what I had been learning about Python, data analysis, and visualization into practice by building a dashboard that can be accessed directly through a web browser.
 
-## Acesse o projeto
+## Access the Project
 
-- **Dashboard:** [Visualizar aplicação](https://nixondeam-dashboard-vendas-alura.streamlit.app/Dados_brutos)
-- **Código-fonte:** [Repositório no GitHub](https://github.com/nixondeam0205/dashboard_vendas)
+- **Dashboard:** [View the live application](https://nixondeam-dashboard-vendas-alura.streamlit.app/Dados_brutos)
+- **Source Code:** [GitHub Repository](https://github.com/nixondeam0205/dashboard_vendas)
 
-## Sobre o projeto
+## About the Project
 
-O dashboard utiliza dados de vendas para apresentar informações de forma visual e permitir que o usuário explore os resultados com filtros.
+The dashboard uses sales data to present information visually and allows users to explore results through interactive filters.
 
-Durante o desenvolvimento, trabalhei com a obtenção dos dados por API, a manipulação com Pandas e a criação de gráficos interativos. Também desenvolvi uma página para consultar os dados brutos e selecionar quais colunas devem ser exibidas.
+During development, I worked on retrieving data from an API, manipulating data with Pandas, and creating interactive charts. I also built a separate page to explore the raw data and choose which columns to display.
 
-## O que é possível explorar
+## What You Can Explore
 
-- Receita total e quantidade de vendas.
-- Receita por estado e categoria de produto.
-- Distribuição geográfica das vendas.
-- Evolução mensal da receita e do volume de vendas.
-- Comparação entre vendedores e estados.
-- Dados brutos com filtros por produto, categoria, preço, frete, período, vendedor, local da compra, avaliação, pagamento e parcelas.
+- Total revenue and number of sales.
+- Revenue by state and product category.
+- Geographical distribution of sales.
+- Monthly revenue and sales trends.
+- Sales performance comparisons by salesperson and state.
+- Raw sales data with filters for product, category, price, shipping cost, purchase date, salesperson, location, customer rating, payment method, and number of installments.
 
-## Tecnologias utilizadas
+## Technologies Used
 
-- **Python:** desenvolvimento da aplicação.
-- **Pandas:** manipulação, agrupamento e análise dos dados.
-- **Requests:** consulta à API que fornece os dados.
-- **Plotly Express:** criação dos gráficos interativos.
-- **Streamlit:** construção e publicação do dashboard.
+- **Python:** Application development.
+- **Pandas:** Data manipulation, grouping, and analysis.
+- **Requests:** Retrieving data from the API.
+- **Plotly Express:** Creating interactive charts.
+- **Streamlit:** Building and deploying the dashboard.
 
-## Como executar o projeto
+## How to Run the Project Locally
 
-É necessário ter Python e Git instalados, além de conexão com a internet para consultar a API.
+You will need Python and Git installed, as well as an internet connection to access the API.
 
-Clone o repositório:
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/nixondeam0205/dashboard_vendas.git
 cd dashboard_vendas
 ```
 
-Crie um ambiente virtual:
+### 2. Create a virtual environment
 
 ```bash
 python -m venv venv
 ```
 
-No Windows, ative o ambiente:
+### 3. Activate the virtual environment
+
+On Windows, using PowerShell:
 
 ```powershell
 .\venv\Scripts\Activate.ps1
 ```
 
-Instale as dependências:
+### 4. Install the dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Execute o dashboard:
+### 5. Run the dashboard
 
 ```bash
 streamlit run Dashboard.py
 ```
 
-## Fonte dos dados
+The application will open in your browser. If it does not open automatically, follow the local URL displayed in the terminal.
 
-Os dados são consultados pela API [labdados.com/produtos](https://labdados.com/produtos).
+## Data Source
 
-Como a aplicação depende desse serviço externo, o funcionamento do dashboard também depende da disponibilidade da API.
+The data is retrieved from the API available at [labdados.com/produtos](https://labdados.com/produtos).
 
-## O que aprendi
+Since the application relies on an external service, its functionality depends on the API being available.
 
-Esse projeto me ajudou a entender melhor como diferentes ferramentas podem trabalhar juntas em uma aplicação de análise de dados.
+## What I Learned
 
-Pratiquei o consumo de APIs, a manipulação de dados com Pandas, a construção de gráficos e filtros interativos e a publicação de uma aplicação web. Também precisei resolver problemas durante o desenvolvimento, o que fez parte importante do aprendizado.
+This project helped me better understand how different tools can work together in a data analysis application.
 
-Pretendo continuar evoluindo o projeto à medida que aprofundar meus conhecimentos em análise de dados e Python.
+I gained practical experience with API requests, data manipulation using Pandas, interactive charts and filters, and deploying a web application. I also had to troubleshoot issues during development, which became an important part of the learning process.
 
-## Sobre mim
+I plan to keep improving my skills in Python and data analysis as I continue learning and working on new projects.
 
-Sou formado em Direito e estou direcionando meus estudos para a área de tecnologia, com foco em Data Science e análise de dados. Tenho estudado Python, Pandas e visualização de dados, buscando desenvolver projetos práticos para consolidar meus conhecimentos.
+## About Me
+
+I have a bachelor's degree in Law and am transitioning into the technology field, with a focus on Data Science and Data Analytics. I have been studying Python, Pandas, and data visualization while developing practical projects to strengthen my skills.
 
 - **GitHub:** [nixondeam0205](https://github.com/nixondeam0205)
 - **LinkedIn:** [Nixon Deam Cavalcanti](https://www.linkedin.com/in/nixon-deam-cavalcanti/)
 
 ---
 
-*Projeto educacional desenvolvido durante meus estudos na Alura.*
+*Educational project developed as part of my Data Science studies at Alura.*
